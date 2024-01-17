@@ -233,6 +233,9 @@ main {
 }
 
 /* Choose us section */
+.container-section {
+    margin-top: 70px;
+}
 
 .choose-title {
     color: #131318;
@@ -241,10 +244,151 @@ main {
     font-weight: 800;
 }
 
+.hotel-title {
+    color: #131318;
+    font-size: 24px;
+    padding-left: 10px;
+    font-weight: 800;
+}
+
+.hotel-description {
+    color: #5A5A5D;
+    font-weight: 400;
+}
+
 .choose-description {
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+}
+
+.main-container {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+
+.choose-container-1 {
+    width: 50%;
+    height: 270px;
+    padding: 15px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    ;
+}
+
+.choose-container-2 {
+    width: 50%;
+    padding: 15px;
+    height: 270px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.choose-container-3 {
+    margin: 0 auto;
+    width: 50%;
+    padding: 15px;
+    padding: 10px;
+    height: 270px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+/* neswslater area style */
+.sub-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.sub-area {
+    width: 45%;
+    border-radius: 16px;
+}
+
+.sub-description {
+    color: #5A5A5D;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+#name,
+#email {
+    margin-top: 20px;
+    padding: 16px 250px 16px 20px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.sub-button {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 425px;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 20px;
+    padding: 14px;
+
+}
+
+.discount-area {
+    width: 50%;
+}
+
+.discount-section {
+    display: flex;
+    margin-top: 50px;
+    gap: 60px;
+}
+
+/* footer section area */
+
+.footer-section{
+    background: rgba(19, 19, 24, 0.05);
+    height: 500px;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 500px;
+    padding-top: 100px;
+}
+
+.footer-title {
+    color: var(--Dark-01, #131318);
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: 30px;
+}
+
+.footer-span {
+    color: #FF5400;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.footer-description {
+    color: #5A5A5D;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.footer-comment{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
 }

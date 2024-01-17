@@ -1,0 +1,250 @@
+/* Navigation menu style */
+
+header,
+main {
+    width: 80%;
+    /* border: 2px solid blue; */
+    margin: 0 auto;
+
+}
+
+.header-section {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.left-nav {
+    display: flex;
+    align-items: center;
+    width: 648px;
+}
+
+.nav-title {
+    margin: 0 10px;
+    color: #131318;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.nav-title span {
+    color: #FF5400;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.menu-home {
+    color: #FF5400;
+}
+
+.right-nav nav ul {
+    display: flex;
+    width: 530px;
+    justify-content: space-around;
+}
+
+.right-nav ul li {
+    list-style: none;
+    color: #424247;
+    font-size: 18px;
+    justify-content: space-around;
+
+}
+
+/* Header banner section style */
+
+.header-banner-section {
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+.header-title {
+    color: #FFF;
+    text-align: center;
+    padding-top: 90px;
+    font-size: 54px;
+    font-weight: 800;
+}
+
+.header-description {
+    width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    color: #FFF;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.header-button {
+    width: 750px;
+    display: flex;
+    justify-content: space-around;
+    margin: 60px auto;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.30);
+}
+
+.header-primary-button {
+    width: 174px;
+    height: 52px;
+    background-color: #FFFFFF;
+    color: rgba(19, 19, 24, 0.50);
+    font-weight: 400;
+    border-radius: 15px;
+}
+
+/* Po[pular Tour area style */
+
+.tour-area-section {
+    display: flex;
+    margin-top: 60px;
+}
+
+
+.tour-left-area {
+    width: 60%;
+}
+
+.tour-title {
+    color: #131318;
+    font-size: 35px;
+}
+
+.tour-title-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-style: normal;
+    font-weight: 400;
+}
+
+.tour-area-button {
+    border-radius: 15px;
+    font-size: 20px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+}
+
+.right-area-img {
+    width: 100%;
+    padding-left: 40px;
+    height: 390px;
+    border-radius: 16px;
+}
+
+/* Destination area style */
+
+.destination-area {
+    padding-top: 50px;
+}
+
+.Destination-title {
+    color: #131318;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.Destination-description {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-weight: 400;
+}
+
+/* destination container area style */
+
+.container-colum-1 {
+    display: flex;
+}
+
+.container-1 {
+    width: 50%;
+    background-image: url(../Images/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.container-2 {
+    width: 50%;
+    background-image: url(../Images/Rectangle\ 8\ \(1\).png);
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 20px;
+
+}
+
+.container-colum-2 {
+    display: flex;
+    margin-top: 20px;
+    gap: 47px;
+}
+
+.container-3 {
+    width: 30%;
+    background-image: url(../Images/Rectangle\ 6.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.container-4 {
+    width: 40%;
+    background-image: url(../Images/Rectangle\ 7.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 20px;
+
+}
+
+.container-5 {
+    width: 25%;
+    background-image: url(../Images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.container-6 {
+    width: 40%;
+    background-image: url(../Images/Rectangle\ 11.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.container-7 {
+    width: 60%;
+    background-image: url(../Images/Rectangle\ 10.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 20px;
+}
+
+
+.country-name {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 130px;
+}
+
+/* Choose us section */
+
+.choose-title {
+    color: #131318;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.choose-description {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
